@@ -1,0 +1,48 @@
+# This file was created Thu Apr 20 18:11:24 2023
+# Created by:
+#               :-) GROMACS - gmx rama, 2020.1-Ubuntu-2020.1-1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /content
+# Command line:
+#   gmx rama -f 05-analysis/clusterSA3.pdb -s 04-annealing/annealing.tpr -o 05-analysis/ramaSA3.xvg
+# gmx rama is part of G R O M A C S:
+#
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+#
+@    title "Ramachandran Plot"
+@    xaxis  label "Phi"
+@    yaxis  label "Psi"
+@TYPE xy
+@    with g0
+@    s0 linestyle 0
+@    s0 color 1
+@ view 0.2, 0.2, 0.8, 0.8
+@ world xmin -180
+@ world ymin -180
+@ world xmax 180
+@ world ymax 180
+@    xaxis  tick on
+@    xaxis  tick major 60
+@    xaxis  tick minor 30
+@    yaxis  tick on
+@    yaxis  tick major 60
+@    yaxis  tick minor 30
+@ s0 symbol 2
+@ s0 symbol size 0.4
+@ s0 symbol fill 1
+51.7952  46.895  GLN-44
+-144.863  -25.1891  ILE-45
+-83.3345  41.3024  LYS-46
+-97.3136  8.75591  ILE-47
+64.8711  17.8566  TRP-48
+-145.916  -1.11147  PHE-49
+-148.581  40.3503  GLN-50
+-66.0431  -32.2216  ASN-51
+-128.083  122.767  ARG-52
+61.18  145.907  ARG-53
+-67.9585  130.407  MET-54
+-63.3061  144.148  LYS-55
+-90.8062  156.117  TRP-56
+39.224  -91.0512  LYS-57

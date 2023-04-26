@@ -1,0 +1,48 @@
+# This file was created Thu Apr 20 18:11:30 2023
+# Created by:
+#               :-) GROMACS - gmx rama, 2020.1-Ubuntu-2020.1-1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /content
+# Command line:
+#   gmx rama -f 05-analysis/clusterSA4.pdb -s 04-annealing/annealing.tpr -o 05-analysis/ramaSA4.xvg
+# gmx rama is part of G R O M A C S:
+#
+# Green Red Orange Magenta Azure Cyan Skyblue
+#
+@    title "Ramachandran Plot"
+@    xaxis  label "Phi"
+@    yaxis  label "Psi"
+@TYPE xy
+@    with g0
+@    s0 linestyle 0
+@    s0 color 1
+@ view 0.2, 0.2, 0.8, 0.8
+@ world xmin -180
+@ world ymin -180
+@ world xmax 180
+@ world ymax 180
+@    xaxis  tick on
+@    xaxis  tick major 60
+@    xaxis  tick minor 30
+@    yaxis  tick on
+@    yaxis  tick major 60
+@    yaxis  tick minor 30
+@ s0 symbol 2
+@ s0 symbol size 0.4
+@ s0 symbol fill 1
+59.3885  8.64345  GLN-44
+-110.253  -30.123  ILE-45
+-83.3746  -6.72407  LYS-46
+-96.3488  2.09085  ILE-47
+53.3333  -5.81881  TRP-48
+-76.168  -24.8689  PHE-49
+-133.349  151.908  GLN-50
+-120.709  -35.8231  ASN-51
+-153.282  120.92  ARG-52
+57.8853  176.522  ARG-53
+-70.2164  151.624  MET-54
+-106.13  129.565  LYS-55
+-99.5876  136.452  TRP-56
+47.2126  -146.57  LYS-57

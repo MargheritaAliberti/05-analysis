@@ -1,4 +1,4 @@
-# This file was created Thu Apr 20 17:49:52 2023
+# This file was created Thu Apr 20 17:55:04 2023
 # Created by:
 #             :-) GROMACS - gmx cluster, 2020.1-Ubuntu-2020.1-1 (-:
 # 
@@ -9,7 +9,7 @@
 #   gmx cluster -s 04-annealing/annealing.tpr -f 04-annealing/annealing.xtc -cl 05-analysis/clusterSA.pdb -cutoff 0.15 -o 05-analysis/clusterSA.xpm -g 05-analysis/clusterSA.log -dt 1 -dist 05-analysis/rmsd-distSA.xvg
 # gmx cluster is part of G R O M A C S:
 #
-# S  C  A  M  O  R  G
+# God Rules Over Mankind, Animals, Cosmos and Such
 #
 @    title "RMS Distribution"
 @    xaxis  label "RMS (nm)"

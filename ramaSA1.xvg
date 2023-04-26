@@ -1,0 +1,48 @@
+# This file was created Thu Apr 20 18:10:40 2023
+# Created by:
+#               :-) GROMACS - gmx rama, 2020.1-Ubuntu-2020.1-1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /content
+# Command line:
+#   gmx rama -f 05-analysis/clusterSA1.pdb -s 04-annealing/annealing.tpr -o 05-analysis/ramaSA1.xvg
+# gmx rama is part of G R O M A C S:
+#
+# GROwing Monsters And Cloning Shrimps
+#
+@    title "Ramachandran Plot"
+@    xaxis  label "Phi"
+@    yaxis  label "Psi"
+@TYPE xy
+@    with g0
+@    s0 linestyle 0
+@    s0 color 1
+@ view 0.2, 0.2, 0.8, 0.8
+@ world xmin -180
+@ world ymin -180
+@ world xmax 180
+@ world ymax 180
+@    xaxis  tick on
+@    xaxis  tick major 60
+@    xaxis  tick minor 30
+@    yaxis  tick on
+@    yaxis  tick major 60
+@    yaxis  tick minor 30
+@ s0 symbol 2
+@ s0 symbol size 0.4
+@ s0 symbol fill 1
+-74.5971  169.033  GLN-44
+-57.9505  -47.7406  ILE-45
+-73.7194  -32.3525  LYS-46
+-47.4425  -60.1263  ILE-47
+-54.1893  -49.8142  TRP-48
+-57.5181  -43.0249  PHE-49
+-54.1287  -42.4852  GLN-50
+-71.6269  -36.0628  ASN-51
+-62.3707  -41.678  ARG-52
+-63.2699  -41.1715  ARG-53
+-58.4098  -42.1197  MET-54
+-81.0897  15.7118  LYS-55
+-104.195  -33.4119  TRP-56
+-85.6574  131.494  LYS-57
